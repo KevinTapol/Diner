@@ -42,7 +42,9 @@ ul{
 .section-1 .box-3,
 .section-2 .box-1,
 .section-2 .box-2,
-.section-2 .box-3{
+.section-2 .box-3,
+.section-2 .box-4,
+.header img{
     /* flex-grow: 1; */
     align-self: start;
     justify-content: center;
