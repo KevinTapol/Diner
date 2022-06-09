@@ -44,6 +44,8 @@ ul{
 .section-2 .box-2,
 .section-2 .box-3,
 .section-2 .box-4,
+.section-2 .box-5,
+.section-2 .box-6,
 .header img{
     /* flex-grow: 1; */
     align-self: start;
@@ -163,6 +165,11 @@ ul{
 .section-2 .container{
     display: flex;
     justify-content: center;
+}
+
+/* Footer */
+.footer{
+    
 }
 
 /* Footer Flex */
