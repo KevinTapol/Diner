@@ -52,7 +52,7 @@ ul{
     justify-content: center;
     background: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 20px 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
     padding: 15px 20px;
@@ -85,7 +85,8 @@ ul{
 /* Navbar Flex */
 .navbar .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* justify-content: space-between; */
     align-items: center;
     /* places navbar items vertically center */
     height: 100%;
@@ -168,15 +169,17 @@ ul{
 }
 
 /* Footer */
-.footer{
-    
+.footer .box-1,
+.footer .box-2{
+    margin: 0 10px;
 }
 
 /* Footer Flex */
 .footer .container{
     display: flex;
-    justify-content: space-evenly;  
-    align-items: center;  
+    justify-content: center;
+    /* justify-content: space-evenly;   */
+    /* align-items: center;   */
 }
 
 @media(max-width: 768px){
