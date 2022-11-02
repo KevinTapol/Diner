@@ -169,15 +169,20 @@ ul{
 }
 
 /* Footer */
-.footer .box-1,
-.footer .box-2{
-    margin: 0 10px;
+.footer {
+    /* display: flex; */
+    text-align: center;
+}
+
+.footer.container.box-1,
+.footer.container.box-2{
+    /* justify-content: center; */
 }
 
 /* Footer Flex */
-.footer .container{
-    display: flex;
-    justify-content: center;
+.footer.container{
+    /* display: flex; */
+    /* justify-content: center; */
     /* justify-content: space-evenly;   */
     /* align-items: center;   */
 }
