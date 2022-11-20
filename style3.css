@@ -4,13 +4,12 @@
     margin: 0;
     padding: 0;
 }
-a{
-    color:blue;
+a {
+    color: blue;
 }
-a:hover{
-    color:purple;
+a:hover {
+    color: purple;
 }
-
 body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -19,16 +18,9 @@ body{
     background: white;
 }
 
-.section-1 .box-2 img{
-    max-height: 375px;
-}
-
-.section-2 .box-6 img{
-    
-}
-
 img{
-    max-width: 100%;
+    max-width: 450px;
+    /* max-width: 100%; */
     border-radius: 15px;
 }
 
@@ -66,7 +58,7 @@ ul{
     justify-content: center;
     background: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 20px 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
     padding: 15px 20px;
@@ -78,7 +70,6 @@ ul{
     background: lightgray;
     color: black;
     height: 60px;
-    /* background-color: rgba(255,255,255,0.90); */
 }
 
 .navbar .logo{
@@ -100,7 +91,8 @@ ul{
 /* Navbar Flex */
 .navbar .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* justify-content: space-between; */
     align-items: center;
     /* places navbar items vertically center */
     height: 100%;
@@ -183,15 +175,21 @@ ul{
 }
 
 /* Footer */
-.footer{
+.footer {
     text-align: center;
 }
 
+.footer.container.box-1,
+.footer.container.box-2{
+    /* justify-content: center; */
+}
+
 /* Footer Flex */
-.footer .container{
-    display: flex;
-    justify-content: space-evenly;  
-    align-items: center;  
+.footer.container{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly;   */
+    /* align-items: center;   */
 }
 
 @media(max-width: 768px){
