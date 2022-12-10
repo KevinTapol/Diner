@@ -12,6 +12,6 @@
           <img height="30" src="https://img.shields.io/static/v1?label=|&message=CLICK_HERE_FOR_WEBSITE&color=cdf998&style=plastic&logo=wordpress&logo-color=white"/>
         </a>
         </p> <!--Description of technologies and functionality of D's Diner-->
-        <p><strong>HTML CSS</strong> - A mobile friendly netlify hosted website for D's Diner. </p>
+        <p align="center"><strong>HTML CSS</strong> - A mobile friendly netlify hosted website for D's Diner. </p>
     </td> <!--End of D's Diner-->
   </tr>
