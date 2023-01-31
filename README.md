@@ -1,9 +1,9 @@
 <tr>
     <td width="50%" valign="top"> <!--Set table to use 50% of the window-->
-      <h3 align="center">D's Diner</h3> <!--Start of D's Diner-->
+      <h1 align="center">D's Diner</h1> <!--Start of D's Diner-->
         <br /> <!--Click on project image and open a new window to D's Diner website-->
         <a target="_blank" href="https://dees-diner.netlify.app/">
-          <img src="./images/D'sDiner.png" width="100%"  alt="#"/>
+          <img src="./images/D'sDiner.gif" width="100%"  alt="#"/>
         </a>
         <br />
         <p align="center"> 
